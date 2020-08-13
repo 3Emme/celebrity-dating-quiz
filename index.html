@@ -5,28 +5,42 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
   <script src="js/scripts.js"></script>
-  <title>Car insurance</title>
+  <title>Celebrity Dating Quiz</title>
 </head>
 <body>
   <div class="container">
-    <h1>Car insurance</h1>
+    <h1>Celebrity Dating Quiz</h1>
 
-    <p>To give you a quote, we need to know a little about you:</p>
+    <p>To know your Celebrity love match, we need to ask you a very important question:</p>
 
-    <form id="insurance">
-      <label for="age">Age</label>
-      <input id="age" type="text">
-      <label for="gender">Gender</label>
-      <select id="gender">
-        <option value="female">Female</option>
-        <option value="male">Male</option>
+    <form id="horse">
+      <label for="interest">How do you feel about horses?</label>
+      <select id="interest">
+        <option value="love">Love</option>
+        <option value="hate">Hate</option>
       </select>
 
-      <button type="submit" class="btn">Calculate my quote</button>
+      <label for="love">On a scale of 1-10, how much do you love horses?</label>
+      <input id="love" type="text">
+      <label for="hate">On a scale of 1-10, how much do you hate horses?</label>
+      <input id="hate" type="text">
+
+      <button type="submit" class="btn">Who Will Gallop into the Horizon with Me?</button>
     </form>
 
-    <div id="quote">
-      <p>You will have to pay $<span id="rate"></span> per month to get car insurance. You should probably just bike or take the bus.</p>
+    <div id="stewart">
+      <img src= "">
+      <p>You will instead walk into the horizon with the lovely Kristen Stewart, as she is famously terrified of horses. $<span id="rate"></span></p>
+    </div>
+
+    <div id="busey">
+      <img src= "">
+      <p>You will ride into the horizon with the formidable Gary Busey, though he will be riding a donkey that he 100% believes is a horse. $<span id="rate"></span></p>
+    </div>
+
+    <div id="foxx">
+      <img src= "">
+      <p>You will ride into the horizon with the multi-talented Jamie Foxx, who famously fell in love with his horse on the set of Django Unchained. $<span id="rate"></span></p>
     </div>
   </div>
 </body>
