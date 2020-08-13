@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
-  $("select#interest").submit(function(event) {
+  $("select#interest").select(function(event) {
     const interest = $("select#interest").val();
 
-    if (interest = "love"){
+    if (interest === "love"){
       $("#love-scale").show();
       } else {
       $("#hate-scale").show();
       }
-
+      
     event.preventDefault();
   });
 

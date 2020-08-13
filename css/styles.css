@@ -2,7 +2,14 @@
   display: block;
 }
 
-/*
+#love-scale {
+  display: none;
+}
+
+#hate-scale {
+  display: none;
+}
+
 #stewart {
   display: none;
 }
@@ -12,13 +19,5 @@
 }
 
 #foxx {
-  display: none;
-}
-
-#love-scale {
-  display: none;
-}
-
-#hate-scale {
   display: none;
 }
